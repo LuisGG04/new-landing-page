@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/pokemonFavicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Landing Page</title>
+</head>
+<body>
+
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Landing Page</h2>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Acerca de</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">GifExpertApp</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Portfolio</a>
+                </li>
+
+                <img src="./images/exit.svg" alt="exit" class="nav__close">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./images/menu.svg" alt="menu" class="nav__img">
+            </div>
+        </nav>
+
+        <section class="hero__container container">
+            <h2 class="hero__title">Prácticas de CSS, HTML y JavaScript</h2>
+            <p class="hero__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, fuga ipsum explicabo at repellat vel. Tempora, repudiandae. Rem, enim, eius veritatis autem, molestias ipsam nostrum similique cumque officia fugiat minima?</p>
+            <a href="#" class="cta">Nuestros proyectos.</a>
+        </section>
+    </header>
+
+    <main>
+        <section class="container about">
+            <h2 class="subtitle">En esta práctica se utilizan los siguientes recursos:</h2>
+            <p class="about__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="./images/html.svg" alt="html-icon" class="about__icon">
+                    <h3 class="about__title">HTML 5</h3>
+                    <p class="about__paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut vel odio eaque corrupti placeat! Vero exercitationem quis enim consequatur distinctio nulla beatae pariatur dolores nesciunt quibusdam, ex debitis at deleniti.</p>
+                </article>
+                <article class="about__icons">
+                    <img src="./images/css.svg" alt="css-icon" class="about__icon">
+                    <h3 class="about__title">CSS 3</h3>
+                    <p class="about__paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut vel odio eaque corrupti placeat! Vero exercitationem quis enim consequatur distinctio nulla beatae pariatur dolores nesciunt quibusdam, ex debitis at deleniti.</p>
+                </article>
+                <article class="about__icons">
+                    <img src="./images/js.svg" alt="js-icon" class="about__icon">
+                    <h3 class="about__title">JavaScript</h3>
+                    <p class="about__paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut vel odio eaque corrupti placeat! Vero exercitationem quis enim consequatur distinctio nulla beatae pariatur dolores nesciunt quibusdam, ex debitis at deleniti.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="knowledge">
+            <div class="knowledge__container container">
+                <div class="knowledge__text">
+                    <h2 class="subtitle">Practica en React. Aplicación GifExpertApp</h2>
+                    <p class="knowledge__paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod aperiam quo, vitae voluptatibus nihil perspiciatis iste fuga ut in.</p>
+                    <a href="#" class="cta">Ir al proyecto</a>
+                </div>
+
+                <figure class="knowledge__picture">
+                    <img src="./images/react.jpg" alt="css.img" class="knowledge__img">
+                </figure>
+            </div>
+        </section>
+
+        <section class="price container">
+            <h2 class="subtitle">Obten el paquete perfecto</h2>
+            <div class="price__table">
+                <div class="price__element">
+                    <p class="price__name">Paquete 1</p>
+                    <h3 class="plan__price">$100</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Item 1</p>
+                        <p class="price__features">Item 2</p>
+                        <p class="price__features">Item 3</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Adquirir</a>
+                </div>
+
+                <div class="price__element">
+                    <p class="price__name">Paquete 2</p>
+                    <h3 class="plan__price">$250</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Item 1</p>
+                        <p class="price__features">Item 2</p>
+                        <p class="price__features">Item 3</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Adquirir</a>
+                </div>
+
+                <div class="price__element">
+                    <p class="price__name">Paquete 3</p>
+                    <h3 class="plan__price">$300</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Item 1</p>
+                        <p class="price__features">Item 2</p>
+                        <p class="price__features">Item 3</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Adquirir</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimony">
+            <div class="testimony__container container">
+                <img src="./images/left-arrow.svg" alt="left-arrow" class="testimony__arrow" id="before">
+
+                <section class="testimony__body testimony__body-show" data-id="1">
+                    <div class="testimony__text">
+                        <h2 class="subtitle">Personaje número uno. <span class="testimony__course">Proyectos en curso</span></h2>
+                        <p class="testimony__review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, enim eaque! Praesentium quod consequatur quam, temporibus, quibusdam sequi ratione dolorum, blanditiis delectus ipsum sapiente maiores velit placeat eum quaerat itaque!</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/people-1.jpg" alt="person-1" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__text">
+                        <h2 class="subtitle">Personaje número dos. <span class="testimony__course">Proyectos en curso</span></h2>
+                        <p class="testimony__review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, enim eaque! Praesentium quod consequatur quam, temporibus, quibusdam sequi ratione dolorum, blanditiis delectus ipsum sapiente maiores</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/people-2.jpg" alt="person-2" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body testimony__body--show" data-id="3">
+                    <div class="testimony__text">
+                        <h2 class="subtitle">Personaje número tres. <span class="testimony__course">Proyectos en curso</span></h2>
+                        <p class="testimony__review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, enim eaque! Praesentium quod consequatur quam, temporibus, quibusdam sequi ratione dolorum, blanditiis delectus ipsum sapiente maiores velit placeat eum quaerat itaque sit amet consectetur adipisicing elit. Perferendis, enim eaque!</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/people-3.jpg" alt="person-3" class="testimony__img">
+                    </figure>
+                </section>
+
+                <img src="./images/rightArrow.svg" alt="right-arrow" class="testimony__arrow" id="next">
+            </div>
+        </section>
+
+        <section class="questions container">
+            <h2 class="subtitle">Preguntas frecuentes</h2>
+            <p class="questions__paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit recusandae eum quaerat excepturi! Unde quam dicta corrupti!</p>
+            <section class="questions__container">
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">Question 1
+                            <span class="question__arrow">
+                                <img src="./images/up-arrow.svg" alt="up-arrow" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="question__show">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore mollitia natus nulla voluptatum! Mollitia reprehenderit id dignissimos, cumque harum dolore tempore suscipit atque veritatis quod sit et explicabo similique doloribus?
+                        Libero deleniti vero perferendis eos cupiditate delectus dolorem accusantium blanditiis culpa non sit natus dolores ex animi optio, laborum magni velit rerum necessitatibus autem illum deserunt mollitia exercitationem? Recusandae, nihil?</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">Question 2
+                            <span class="question__arrow">
+                                <img src="./images/up-arrow.svg" alt="up-arrow" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="question__show">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore mollitia natus nulla voluptatum! Mollitia reprehenderit id dignissimos, cumque harum dolore tempore suscipit atque veritatis quod sit et explicabo similique doloribus?
+                        Libero deleniti vero perferendis eos cupiditate delectus dolorem accusantium blanditiis culpa non sit natus dolores ex animi optio, laborum magni velit rerum necessitatibus autem illum deserunt mollitia exercitationem? Recusandae, nihil?</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">Question 3
+                            <span class="question__arrow">
+                                <img src="./images/up-arrow.svg" alt="up-arrow" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="question__show">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore mollitia natus nulla voluptatum! Mollitia reprehenderit id dignissimos, cumque harum dolore tempore suscipit atque veritatis quod sit et explicabo similique doloribus?
+                        Libero deleniti vero perferendis eos cupiditate delectus dolorem accusantium blanditiis culpa non sit natus dolores ex animi optio, laborum magni velit rerum necessitatibus autem illum deserunt mollitia exercitationem? Recusandae, nihil?</p>
+                    </div>
+                </article>
+            </section>
+        </section>
+    </main>
+
+    <script src="./js/sliders.js"></script>
+    
+</body>
+</html>
